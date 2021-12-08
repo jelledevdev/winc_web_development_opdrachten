@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+    background: rgba(22, 37, 35, 0.459);
+    font-family:'Montserrat', sans-serif;;
+}
+
+.black-border{
+    border: rgb(29, 27, 27) solid 2px;
+}
+
+a{
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(13, 55, 56);
+    font-size: 22px;
+}
