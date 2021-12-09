@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="about.html">About.</a></li>
+                <li><a href="contact.html">Contact.</a></li>
+                <li><a href="recepten.html">Recepten.</a></li>
+                <li><a href="index.html">Home.</a></li>
+            </ul>
+
+            <h1>Jelle van T............</h1>
+    </header>
+
+    <main>
+
+        <h2>Voer hier je recept in:</h2>
+
+
+        <form name="recepten" method="POST" data-netlify="true">
+            <p>
+                 <input type="text" name="name" placeholder="Naam"/>
+            </p>
+            <p>
+              <input type="email" name="email" placeholder="Email" />
+            </p>
+            <p>
+                <input type="tel" name="phone" placeholder="Telefoonnummer" />
+            </p>
+            <p>
+                <input type="number" name="age" placeholder="Leeftijd" />
+            </p>
+            <p> Gender: </p>
+            <p>
+                <label>Vrouw: <input type="radio" name="gender" /></label>
+                <label>Man: <input type="radio" name="gender" /></label>
+                <label>Overig <input type="radio" name="gender" /></label>
+            </p>
+            <p>Favoriete keuken:</p>
+            <p>
+                <label>Indiaas <input type="checkbox" name="keuken" /></label>
+                <label>Koreaans <input type="checkbox" name="keuken" /></label>
+                <label>Marokkaans <input type="checkbox" name="keuken" /></label>
+                <label>Turks <input type="checkbox" name="keuken" /></label>
+            </p>
+            <p>Kies een kleur voor je schort:</p>
+            <p>
+                <label><input type="color" name="kleur" /></label>
+            </p>
+            <p>Biografie:</p>
+            <p><textarea name="message"></textarea>
+            </p>
+            <p>Recept:</p>
+            <p><textarea name="recipe"></textarea>
+            </p>
+            <p>
+                <input type="url" name="link_naar_site" placeholder="www.yoursite.com">
+            </p>
+            <p> <input type="reset"></p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
